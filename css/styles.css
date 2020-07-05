@@ -1,0 +1,464 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@400;500;700&family=Sniglet:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Snigle-font: "Sniglet", sans-serif;
+  --Rubik: "Rubik", sans-serif;
+  --Patua: "Patua", sans-serif;
+  --Lobster: "Lobster", sans-serif;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(
+    to bottom,
+     #46b3e6, #dff6f0);
+    )
+  --light-gray: rgba(255,255,255,.3)
+}
+
+.logo-image{
+  width: 150px;
+  height: 150px;
+
+}
+
+header a{
+  font-family: var(--Snigle-font);
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+
+header {
+
+  background: var(--bggradient);
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: #ddd;
+}
+.dropdown-content a:hover{
+  background: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last child {
+  padding-right: 10.5rem;
+}
+
+header .nav-item {
+  padding: 0.9rem;
+}
+
+header .navbar-brand {
+  margin-left: 1rem;
+  font-size: 4vmin;
+}
+
+header .nav-link:hover {
+  color: #1b6ca8;
+}
+
+header .nav-link {
+  font-size: 1.2rem;
+  color: white !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+header .row .col-md-5 {
+  padding: 0.5vmin 1vmin;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  font-family: var(--Rubik);
+  color: white;
+}
+
+header .row .col-md-5 img {
+  width: 80%;
+  box-shadow: 0px 25px 42px rgba(0,0,0,0.5);
+}
+
+header .container .col-md-7 h6{
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 10vmin;
+  font-weight: bold;
+  padding: 0.1rem 0rem;
+  color: #6a197d;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+  color: #111d5e;
+  font-weight: 500;
+  text-align: center;
+}
+
+header .container .col-md-7 button{
+  border-radius: 30px;
+  font-weight: bold;
+  color: #1b6ca8;
+}
+
+/* section 1 */
+
+.section-1 {
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2rem;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+  position: absolute;
+  top: 6vmin;
+  left: -18vmin;
+  background: #bae5e5;
+  border-radius: 3px;
+  text-align: left;
+  padding: 10vmin 5vmin 10vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4rem 0;
+  font-size: 2rem;
+  color: #1b6ca8;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9rem;
+  color: #654062;
+  font-weight: 500;
+}
+
+/* section-2 */
+
+.purchase>h1 {
+  padding-top: 5vmin;
+  padding-bottom: 0.1rem;
+  font-family: var(--Lobster);
+  font-size: 3rem;
+  color: #fff;
+}
+
+.purchase .cards .card {
+  width: 33rem;
+  margin: 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+
+}
+
+.cards .title {
+  background: white;
+  text-align: center;
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+  color: var(--light-black);
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+  font-weight: 500;
+  text-align: left;
+}
+
+.card .photo img{
+  width: 80%;
+  padding-bottom: 1rem;
+  border-radius: 30%;
+}
+
+.cards {
+    padding: 5vmin;
+}
+
+.card {
+  background: #e4f9ff;
+}
+
+.section-2 {
+  background: var(--bggradient);
+}
+
+/* section-3 */
+
+.section-3 {
+  margin-top: 2vmin;
+
+}
+
+.section-3 .col-md-12>h1 {
+  padding: 1em 0 0.5em 0;
+  color: #1b6ca8;
+  font-size: 10vmin;
+  font-weight: 600;
+  font-family: var(--Lobster);
+}
+
+.section-3 .col-md-6 .panel>p {
+  padding: 0 2rem;
+  color: #6a197d;
+  font-weight: 500;
+}
+
+/* section-4 */
+
+.section-4 {
+  background: var(--bggradient);
+}
+
+.container>h1{
+  padding-top: 5vmin;
+  padding-bottom: 0.1rem;
+  font-family: var(--Lobster);
+  font-size: 3rem;
+  color: white;
+}
+
+.container>p {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.card .card-text {
+  padding: 2rem 3rem;
+  color: var(--light-black);
+  font-weight: 500;
+  text-align: center;
+}
+
+.section-4 .cards .card {
+  width: 60rem;
+  margin: 3vmin;
+}
+
+.card-img-top img{
+  width: 80%;
+  padding: 2rem 1rem;
+  border-radius: 10%;
+}
+
+.section-4 .cards .card-title{
+  font-size: 5vmin;
+  color: #1b6ca8;
+  font-family: var(--Snigle-font);
+  margin-bottom: 0.5rem;
+}
+
+/* section-5 */
+
+.section-5 .container h1 {
+  padding-top: 5vmin;
+  padding-bottom: 0.1rem;
+  font-family: var(--Lobster);
+  font-size: 3rem;
+  color: #1b6ca8;
+}
+
+.section-5 ul {
+  columns: 2;
+  margin-left: 20rem;
+  padding: 8vmin 0;
+}
+
+ul li {
+  color: #6a197d;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+/* footer */
+
+footer {
+  background: #111d5e;
+  padding: 2rem 3rem;
+  color: #fff;
+  padding-left: 10rem;
+}
+
+footer ul {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+footer ul li {
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.copyright {
+  color: #fff;
+  background-color: #6a197d;
+  padding: 0.5rem;
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+
+.cards div {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background-size: auto;
+  }
+  header .navbar-brand {
+    margin-left: 2.5rem;
+  }
+  .section-1 .container .row .pray{
+    width: 80%;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    box-shadow: none;
+    padding: 7vmin 7vmin;
+    z-index: 1;
+    left: -25vmin;
+  }
+  .section-1 .row .col-md-6 .panel h1 {
+    font-size: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 0.3rem;
+  }
+  .section-4 .cards .card {
+    width: 40rem;
+    margin: 1vmin;
+  }
+  .section-5 ul {
+    columns: 2;
+    margin-left: 10rem;
+    padding: 8vmin 0;
+  }
+  footer {
+    padding: 1rem 1rem;
+    column-gap: 5rem;
+  }
+
+  footer ul {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  footer ul li {
+    line-height: 1.2rem;
+  }
+  footer li {
+    gap
+  }
+  header .row .col-md-7 {
+    padding: 4vmin 2vmin;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  header .navbar-brand {
+    margin: 0;
+  }
+  header .row .col-md-5 img {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: none;
+  }
+  header .row .col-md-7 {
+    padding: 10vmin 2vmin;
+  }
+  .section-1 .container .row .pray{
+    padding: 1rem;
+    width: 100%;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-4 .cards .card {
+    width: 25rem;
+    margin: 1vmin;
+  }
+  .section-5 ul {
+    margin-left: 3rem;
+    padding: 8vmin 0;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  header .navbar-brand {
+    margin: -2rem;
+  }
+  .section-4 .cards .card {
+    width: 20rem;
+    margin: 1vmin;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header .navbar-brand {
+    margin-left: -2.9rem;
+
+  }
+  header .navbar-brand img {
+    margin-right: -1rem;
+  }
+}
